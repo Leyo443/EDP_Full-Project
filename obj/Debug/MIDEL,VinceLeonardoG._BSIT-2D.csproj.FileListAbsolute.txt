@@ -1,0 +1,10 @@
+C:\Users\1\Desktop\MIDEL,VinceLeonardoG._BSIT-2D\bin\Debug\MIDEL,VinceLeonardoG._BSIT-2D.exe.config
+C:\Users\1\Desktop\MIDEL,VinceLeonardoG._BSIT-2D\bin\Debug\MIDEL,VinceLeonardoG._BSIT-2D.exe
+C:\Users\1\Desktop\MIDEL,VinceLeonardoG._BSIT-2D\bin\Debug\MIDEL,VinceLeonardoG._BSIT-2D.pdb
+C:\Users\1\Desktop\MIDEL,VinceLeonardoG._BSIT-2D\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.csproj.AssemblyReference.cache
+C:\Users\1\Desktop\MIDEL,VinceLeonardoG._BSIT-2D\obj\Debug\MIDEL_VinceLeonardoG._BSIT_2D.Form1.resources
+C:\Users\1\Desktop\MIDEL,VinceLeonardoG._BSIT-2D\obj\Debug\MIDEL_VinceLeonardoG._BSIT_2D.Properties.Resources.resources
+C:\Users\1\Desktop\MIDEL,VinceLeonardoG._BSIT-2D\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.csproj.GenerateResource.cache
+C:\Users\1\Desktop\MIDEL,VinceLeonardoG._BSIT-2D\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\MIDEL,VinceLeonardoG._BSIT-2D\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.exe
+C:\Users\1\Desktop\MIDEL,VinceLeonardoG._BSIT-2D\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.pdb
