@@ -58,20 +58,54 @@
     <Compile Include="frmHome.Designer.cs">
       <DependentUpon>frmHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPriceBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPriceBook.Designer.cs">
+      <DependentUpon>frmPriceBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegister.Designer.cs">
+      <DependentUpon>frmRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStoreStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStoreStatus.Designer.cs">
+      <DependentUpon>frmStoreStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTimeClock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimeClock.Designer.cs">
+      <DependentUpon>frmTimeClock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsers.Designer.cs">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVendors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVendors.Designer.cs">
+      <DependentUpon>frmVendors.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmHome.resx">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -84,6 +118,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\register.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\store status.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\price book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vendor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time clock 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Time clock1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Users1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vendors.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Price book1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Store status1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Register1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
