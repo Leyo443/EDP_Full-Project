@@ -29,3 +29,9 @@ C:\Users\Kim Jean\source\repos\EDP\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.cspro
 C:\Users\Kim Jean\source\repos\EDP\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.csproj.CoreCompileInputs.cache
 C:\Users\Kim Jean\source\repos\EDP\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.exe
 C:\Users\Kim Jean\source\repos\EDP\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.pdb
+C:\Users\Kim Jean\source\repos\EDP ni Leo\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.csproj.AssemblyReference.cache
+C:\Users\Kim Jean\source\repos\EDP ni Leo\obj\Debug\MIDEL_VinceLeonardoG._BSIT_2D.Form1.resources
+C:\Users\Kim Jean\source\repos\EDP ni Leo\obj\Debug\MIDEL_VinceLeonardoG._BSIT_2D.frmHome.resources
+C:\Users\Kim Jean\source\repos\EDP ni Leo\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.csproj.GenerateResource.cache
+C:\Users\Kim Jean\source\repos\EDP ni Leo\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.exe
+C:\Users\Kim Jean\source\repos\EDP ni Leo\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.pdb
