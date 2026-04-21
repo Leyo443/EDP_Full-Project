@@ -13,6 +13,7 @@ namespace MIDEL_VinceLeonardoG._BSIT_2D
 {
     public partial class Form1 : Form
     {
+        mydatabase db = new mydatabase();
         public Form1()
         {
             InitializeComponent();
@@ -25,6 +26,16 @@ namespace MIDEL_VinceLeonardoG._BSIT_2D
 
         private void Form1_Load(object sender, EventArgs e)
         {
+           
+
+            if (db.TestConnection() == true)
+            {
+                MessageBox.Show("Connected to Database");
+            }
+            else
+            {
+                MessageBox.Show("Database Connection Failed");
+            }
 
         }
 
