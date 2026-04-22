@@ -16,5 +16,10 @@ namespace MIDEL_VinceLeonardoG._BSIT_2D
         {
             InitializeComponent();
         }
+
+        private void frmUsers_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

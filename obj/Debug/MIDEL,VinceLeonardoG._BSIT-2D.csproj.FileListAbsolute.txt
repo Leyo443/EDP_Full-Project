@@ -41,3 +41,15 @@ C:\Users\1\Desktop\Midel\obj\Debug\MIDEL_VinceLeonardoG._BSIT_2D.frmHome.resourc
 C:\Users\1\Desktop\Midel\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.csproj.GenerateResource.cache
 C:\Users\1\Desktop\Midel\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.exe
 C:\Users\1\Desktop\Midel\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.pdb
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.csproj.AssemblyReference.cache
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\obj\Debug\MIDEL_VinceLeonardoG._BSIT_2D.Form1.resources
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\obj\Debug\MIDEL_VinceLeonardoG._BSIT_2D.frmHome.resources
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.csproj.GenerateResource.cache
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.exe
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.pdb
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\obj\Debug\MIDEL_VinceLeonardoG._BSIT_2D.frmPriceBook.resources
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\obj\Debug\MIDEL_VinceLeonardoG._BSIT_2D.frmRegister.resources
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\obj\Debug\MIDEL_VinceLeonardoG._BSIT_2D.frmStoreStatus.resources
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\obj\Debug\MIDEL_VinceLeonardoG._BSIT_2D.frmTimeClock.resources
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\obj\Debug\MIDEL_VinceLeonardoG._BSIT_2D.frmUsers.resources
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\obj\Debug\MIDEL_VinceLeonardoG._BSIT_2D.frmVendors.resources

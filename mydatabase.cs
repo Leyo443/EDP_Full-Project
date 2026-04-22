@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace MIDEL_VinceLeonardoG._BSIT_2D
 {
-    internal class mydatabase
+    internal class MyDatabase
     {
         string connectionString = "Server=localhost;Port=3306;Database='midel_db';Uid='root';Pwd=''";
         public bool TestConnection()

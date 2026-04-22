@@ -37,7 +37,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\Program Files (x86)\MySQL\MySQL Connector NET 9.2\MySql.Data.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -98,7 +100,7 @@
     <Compile Include="frmVendors.Designer.cs">
       <DependentUpon>frmVendors.cs</DependentUpon>
     </Compile>
-    <Compile Include="mydatabase.cs" />
+    <Compile Include="MyDatabase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -106,6 +108,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmHome.resx">
       <DependentUpon>frmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPriceBook.resx">
+      <DependentUpon>frmPriceBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegister.resx">
+      <DependentUpon>frmRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStoreStatus.resx">
+      <DependentUpon>frmStoreStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTimeClock.resx">
+      <DependentUpon>frmTimeClock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsers.resx">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVendors.resx">
+      <DependentUpon>frmVendors.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -125,46 +145,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\register.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\store status.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\price book.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\vendor.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\users.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\users 1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\time clock.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\time clock 1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Time clock1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Users1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Vendors.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Price book1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Store status1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Register1.png" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
