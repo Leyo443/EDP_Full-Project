@@ -53,3 +53,11 @@ C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\obj\Debug\MIDEL_Vince
 C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\obj\Debug\MIDEL_VinceLeonardoG._BSIT_2D.frmTimeClock.resources
 C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\obj\Debug\MIDEL_VinceLeonardoG._BSIT_2D.frmUsers.resources
 C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\obj\Debug\MIDEL_VinceLeonardoG._BSIT_2D.frmVendors.resources
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\bin\Debug\MIDEL,VinceLeonardoG._BSIT-2D.exe.config
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\bin\Debug\MIDEL,VinceLeonardoG._BSIT-2D.exe
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\bin\Debug\MIDEL,VinceLeonardoG._BSIT-2D.pdb
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\bin\Debug\System.Memory.dll
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\obj\Debug\MIDEL_VinceLeonardoG._BSIT_2D.Properties.Resources.resources
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\obj\Debug\MIDEL,VinceLeonardoG._BSIT-2D.csproj.CoreCompileInputs.cache
+C:\Users\Kim Jean\source\repos\EDP ni Leo\EDP_Full-Project\obj\Debug\MIDEL,Vi.2B9F826D.Up2Date
