@@ -115,7 +115,7 @@ namespace MIDEL_VinceLeonardoG._BSIT_2D
 
 
         }
-        
+
 
         private void tbPassword_TextChanged(object sender, EventArgs e)
         {
@@ -133,7 +133,6 @@ namespace MIDEL_VinceLeonardoG._BSIT_2D
                     int idUserInfo = Convert.ToInt32(dgvUsers.SelectedRows[0].Cells[0].Value);
                     int idLoginCredentials = Convert.ToInt32(dgvUsers.SelectedRows[0].Cells[1].Value);
                     tbFname.Text = dgvUsers.SelectedRows[0].Cells[2].Value.ToString();
-                    //continue
                     tbMname.Text = dgvUsers.SelectedRows[0].Cells[3].Value.ToString();
                     tbLname.Text = dgvUsers.SelectedRows[0].Cells[4].Value.ToString();
                     tbEmailAdd.Text = dgvUsers.SelectedRows[0].Cells[5].Value.ToString();
@@ -143,7 +142,7 @@ namespace MIDEL_VinceLeonardoG._BSIT_2D
                     tbPassword.Text = dgvUsers.SelectedRows[0].Cells[9].Value.ToString();
 
                 }
-            }
+            }S
         }
 
         private void tbEmailAdd_Leave(object sender, EventArgs e)
