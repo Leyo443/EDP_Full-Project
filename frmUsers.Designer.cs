@@ -69,6 +69,7 @@
             this.dgvUsers.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvUsers.Size = new System.Drawing.Size(608, 508);
             this.dgvUsers.TabIndex = 0;
+            this.dgvUsers.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dgvUsers_CellFormatting);
             // 
             // label1
             // 
@@ -133,6 +134,7 @@
             this.tbEmailAdd.Name = "tbEmailAdd";
             this.tbEmailAdd.Size = new System.Drawing.Size(305, 35);
             this.tbEmailAdd.TabIndex = 8;
+            this.tbEmailAdd.Leave += new System.EventHandler(this.tbEmailAdd_Leave);
             // 
             // tbHomeAdd
             // 
@@ -186,6 +188,7 @@
             // 
             this.tbPassword.Location = new System.Drawing.Point(18, 585);
             this.tbPassword.Name = "tbPassword";
+            this.tbPassword.PasswordChar = '*';
             this.tbPassword.Size = new System.Drawing.Size(305, 35);
             this.tbPassword.TabIndex = 16;
             this.tbPassword.TextChanged += new System.EventHandler(this.tbPassword_TextChanged);
@@ -217,6 +220,7 @@
             this.btnUpdate.TabIndex = 18;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDeactivate
             // 
@@ -226,6 +230,7 @@
             this.btnDeactivate.TabIndex = 19;
             this.btnDeactivate.Text = "Deactivate";
             this.btnDeactivate.UseVisualStyleBackColor = true;
+            this.btnDeactivate.Click += new System.EventHandler(this.btnDeactivate_Click);
             // 
             // frmUsers
             // 

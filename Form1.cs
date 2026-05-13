@@ -45,31 +45,41 @@ namespace MIDEL_VinceLeonardoG._BSIT_2D
         {
             if (textBox1.Text == "")
             {
-                MessageBox.Show("Please Enter Username!", "Validation");
-                textBox1.Focus();
+                MessageBox.Show("Please enter username", "Validation");
             }
             else if (textBox2.Text == "")
             {
-                MessageBox.Show("Please Enter Password!", "Validation");
+                MessageBox.Show("Please Enter Password", "Validation");
                 textBox2.Focus();
             }
             else
             {
-                DataTable dt = db.ExecuteReturnQuery(
-                    "SELECT * from tblLoginCredentials WHERE user_username = @uname and user_password = @pword;",
+                DataTable dtActive = db.ExecuteReturnQuery(
+                    "SELECT * FROM tblLoginCredentials WHERE user_username = @uname AND user_password = @pword AND is_active = 1;",
                     new MySqlParameter("@uname", textBox1.Text),
-                    new MySqlParameter("@pword", textBox2.Text)
-                );
+                    new MySqlParameter("@pword", textBox2.Text));
 
-                if (dt.Rows.Count == 1)
+                if (dtActive.Rows.Count == 1)
                 {
                     frmHome frm = new frmHome();
-                    this.Hide();
                     frm.Show();
+                    this.Hide();
                 }
                 else
                 {
-                    MessageBox.Show("Invalid Username or Password!");
+                    DataTable dtInactive = db.ExecuteReturnQuery(
+                        "SELECT * FROM tblLoginCredentials WHERE user_username = @uname AND user_password = @pword AND is_active = 0;",
+                        new MySqlParameter("@uname", textBox1.Text),
+                        new MySqlParameter("@pword", textBox2.Text));
+
+                    if (dtInactive.Rows.Count == 1)
+                    {
+                        MessageBox.Show("This account has been deactivated.", "Account Deactivated");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Invalid Username or Password", "Login Failed");
+                    }
                 }
             }
         }
