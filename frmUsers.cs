@@ -142,7 +142,7 @@ namespace MIDEL_VinceLeonardoG._BSIT_2D
                     tbPassword.Text = dgvUsers.SelectedRows[0].Cells[9].Value.ToString();
 
                 }
-            }S
+            }
         }
 
         private void tbEmailAdd_Leave(object sender, EventArgs e)

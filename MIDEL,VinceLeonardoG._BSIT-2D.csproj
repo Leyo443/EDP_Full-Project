@@ -101,6 +101,8 @@
       <DependentUpon>frmVendors.cs</DependentUpon>
     </Compile>
     <Compile Include="MyDatabase.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -132,6 +134,8 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="bin\Debug\MIDEL,VinceLeonardoG._BSIT-2D.exe.config" />
+    <None Include="obj\Release\MIDEL,VinceLeonardoG._BSIT-2D.csproj.AssemblyReference.cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -153,6 +157,11 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="bin\Debug\MIDEL,VinceLeonardoG._BSIT-2D.exe" />
+    <Content Include="bin\Debug\MIDEL,VinceLeonardoG._BSIT-2D.pdb" />
+    <Content Include="bin\Debug\System.Memory.dll" />
+    <Content Include="bin\Debug\System.Numerics.Vectors.dll" />
+    <Content Include="database\midel_db.sql" />
     <Content Include="Resources\Point of Sale System BG .jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

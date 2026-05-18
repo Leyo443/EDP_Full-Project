@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 13, 2026 at 12:33 PM
+-- Generation Time: May 18, 2026 at 03:39 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -40,7 +40,9 @@ CREATE TABLE `tbllogincredentials` (
 --
 
 INSERT INTO `tbllogincredentials` (`LoginID`, `user_username`, `user_password`, `userID`, `is_active`) VALUES
-(1, 'admin', 'admin', 1, 1);
+(1, 'admin', 'admin', 1, 1),
+(5, 'roksi', '123', 5, 1),
+(6, 'Donliecii', 'eci', 6, 1);
 
 -- --------------------------------------------------------
 
@@ -63,10 +65,8 @@ CREATE TABLE `tbluserinformation` (
 --
 
 INSERT INTO `tbluserinformation` (`userID`, `firstname`, `middlename`, `lastname`, `emailAddress`, `homeAddress`, `birthDate`) VALUES
-(1, 'jerome', 'gutierrez', 'austria', 'jerome.austria@pcu.edu.ph', 'Bacoor Cavite', '2016-01-13'),
-(2, 'user', 'user', 'user', 'user', 'user', '2026-04-14'),
-(3, 'sheldon', 'lee', 'cooper', 'asd', 'asd', '2026-04-13'),
-(4, 's1', 's1', 's1', 's1', 's1', '2026-04-14');
+(5, 'Vince Leonardo', 'Gonzales', 'Midel', 'vlgmide@pcu.edu..hp', 'Block 194 Lot 9 Zone 6 AFP Housing Bulihan, Silang, Cavite', '2005-12-28'),
+(6, 'Angel Louisse', 'Manalo', 'Bautista', 'almbaustista@pcu.edu.ph', 'Bacoor Cavite', '2006-10-19');
 
 --
 -- Indexes for dumped tables
@@ -92,13 +92,13 @@ ALTER TABLE `tbluserinformation`
 -- AUTO_INCREMENT for table `tbllogincredentials`
 --
 ALTER TABLE `tbllogincredentials`
-  MODIFY `LoginID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `LoginID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `tbluserinformation`
 --
 ALTER TABLE `tbluserinformation`
-  MODIFY `userID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `userID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
